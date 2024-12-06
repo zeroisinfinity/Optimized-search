@@ -5,7 +5,7 @@ def first_index(my_string, sub_string):
     #sub_string = sub_string.lower()
     len_of_substr = len(sub_string)
     len_of_mystr = len(my_string)
-
+#start loop
     for search in range(0, len_of_mystr - len_of_substr + 1, 1):
         if my_string[search] == sub_string[0]:
             for sub_search in range(1, len_of_substr, 1):

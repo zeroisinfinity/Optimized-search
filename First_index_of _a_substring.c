@@ -65,3 +65,5 @@ int main(){//b1
         printf("%lf\n",time);
         return 0;
 }//b1
+
+//Thats c code of finding first occurrence of substring in 0.18s in 1 billion characters
