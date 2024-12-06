@@ -32,7 +32,7 @@ def hfreq(l):
     # To check if all got distinct marks
     if count_initial == 1 and len(freq_list) == no_of_stud:
         print("Every marks' frequency is 1.")
-    # If not
+    # If not distinct
     else:
         for iter in range(len(freq_list)):
             print("Highest frequency marks is ", freq_list[iter], " with frequency of - ", count_initial)

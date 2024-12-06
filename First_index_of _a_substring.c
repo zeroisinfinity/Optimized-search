@@ -7,7 +7,8 @@ int first_index(const char* my_str, const char* sub_str){//b1
     int len_of_mystr = strlen(my_str), len_of_substr = strlen(sub_str);
     int search , sub_search;
     char for_else = 'T';
-
+//Start a loop to traverse
+//start
     for( search = 0 ; search < (len_of_mystr - len_of_substr + 1) ; search++ ){//b2
             if(my_str[search] == sub_str[0]){//b3
                     for(sub_search = 1 ; sub_search < len_of_substr ; sub_search++){//b5
